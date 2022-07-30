@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+/*최상단 "스팟메이트 안전 대책"*/
+
+.safetytext {
+  width: 350px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 14px;
+  left: 815px;
+  font-family: Noto Sans;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+/*같이 타고 가요 SPOT CARPOOL*/
+
+.v234_9190 {
+  width: 239px;
+  color: rgba(30,30,30,1);
+  position: absolute;
+  top: 303px;
+  left: 247px;
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+/*SPOT CARPOOL 서비스 설명 텍스트*/
+
+.v234_9191 {
+  width: 371px;
+  color: rgba(30,30,30,1);
+  position: absolute;
+  top: 303px;
+  left: 970px;
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+/*상단 네비 카풀 , 히치하이크 */
+
+.v234_9265 { 
+  width: 67px;
+  color: rgba(70,84,163,1);
+  position: absolute;
+  top: 164px;
+  left: 745px;
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+  /*border-bottom: solid 3px rgba(70,84,163,1);*/
+}
+
+
+.v234_9266 {
+  width: 76px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 164px;
+  left: 861px;
+  font-family: Noto Sans;
+  font-weight: SemiBold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}

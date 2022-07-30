@@ -17,8 +17,8 @@
 		<li id="brand">BRAND</li>
 		<li id="spot">SPOT</li>
 		<li id="mate">MATE</li>
-		<li id="driver">DRIVER</li>
-		<li id="notice">NOTICE</li>
+		<li id="driver">NOTICE</li>
+		<li id="notice">DRIVER</li>
 	</ul>
 	<ol id="login">
 		<li><a href="">로그인</a></li>

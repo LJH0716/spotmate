@@ -4,13 +4,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class SpotCarpoolController {
+public class SpotMainController {
 
 	//메인화면
-	@RequestMapping("/spotcarpool")
+	@RequestMapping("/spotMain")
 	public String test() {
-		System.out.println("/spot/carpool");
-		return "/carpool/spotCarpool";
+		System.out.println("/spotcarpool/main");
+		return "/carpool/spotMain";
 	}
 	
 	
