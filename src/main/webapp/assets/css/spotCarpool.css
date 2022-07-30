@@ -1365,7 +1365,7 @@ body {
 
     
 /****** 카풀 리스트 table ******/
-#carpoolList table {
+#carpoolList #list table {
     width: 1440px;
 	border-collapse: collapse;
 	position: absolute;
@@ -1379,7 +1379,7 @@ body {
 }
 
 /* 카풀 table */
-#carpoolList table>thead>tr {
+#carpoolList #list table>thead>tr {
     border-top: 2px solid rgba(73,85,159,1); 
     border-bottom: 1px solid rgba(245,245,245,1);
     background-color: rgba(245,245,245,1); 
@@ -1388,21 +1388,21 @@ body {
    
 }
 
-#carpoolList table>thead>tr>th {
+#carpoolList #list table>thead>tr>th {
     padding: 25px 0px 25px 0px;
     font-weight: bold; 
 }
 
-#carpoolList table>tbody>tr { 
+#carpoolList #list table>tbody>tr { 
     border-bottom: 1px solid rgba(245,245,245,1);
   
 }
 
-#carpoolList table>tbody>tr:hover { 
+#carpoolList #list table>tbody>tr:hover { 
 	background-color: rgba(245,245,245,1); 
 }
 
-#carpoolList table>tbody>tr>td {
+#carpoolList #list table>tbody>tr>td {
     padding: 25px 0px 25px 0px;
 }
 
@@ -1425,6 +1425,36 @@ body {
   
 }
 
+/********************리스트 페이징**********/
+#carpoolList #list #paging {
+	margin: 0px auto;
+	width: 672px;
+    height: 54px;
+    background: url(../images/v234_9214.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1626px;
+    left: 685px;
+    overflow: hidden;
+    font-family: Noto Sans;
+  	font-weight: bold;
+  	font-size: 16px;
+    
+}
+
+#carpoolList #list #paging ul {margin: 10px 5px 10px 5px;}
+#carpoolList #list #paging ul>li{
+	float: left;
+	margin: 0px 15px 0px 15px;
+}
+
+#carpoolList #list #paging ul>li.active{
+	font-size: 16px;
+	font-weight: bold;
+}
 
 .v234_9313 {
   width: 10px;

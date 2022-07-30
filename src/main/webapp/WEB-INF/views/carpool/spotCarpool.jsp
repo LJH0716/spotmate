@@ -49,36 +49,9 @@
 		<div class="name"></div>
 		<div class="name"></div>
 		<span class="v234_9213">탑승 가능 차량 리스트</span>
-		<div class="v234_9214">
-			<div class="v234_9215"></div>
-			<div class="v234_9216"></div>
-			<div class="v234_9217"></div>
-			<div class="v234_9218"></div>
-			<div class="v234_9219"></div>
-			<div class="v234_9220"></div>
-			<div class="v234_9221"></div>
-			<div class="v234_9222"></div>
-			<div class="v234_9223"></div>
-			<div class="v234_9224"></div>
-			<div class="v234_9225"></div>
-			<div class="v234_9226"></div>
-			<div class="v234_9227"></div>
-			<div class="v234_9228"></div>
-			<span class="v234_9229">1</span> 
-			<span class="v234_9230">2</span> 
-			<span class="v234_9231">3</span>
-			<span class="v234_9232">4</span> 
-			<span class="v234_9233">5</span> 
-			<span class="v234_9234">6</span>
-			<span class="v234_9235">7</span> 
-			<span class="v234_9236">8</span> 
-			<span class="v234_9237">9</span> 
-			<span class="v234_9238">10</span>
-			<div class="v234_9239"></div>
-			<div class="v234_9240"></div>
-			<div class="v234_9241"></div>
-			<div class="v234_9242"></div>
-		</div>
+		
+		
+		 
 		<div class="v234_9243"></div>
 		<div class="v234_9244">
 			<div class="v234_9245"></div>
@@ -109,10 +82,10 @@
 			</div>
 		</div>
 		
-		<div id="carpoolList">
 		
+		<div id="carpoolList">
+			<div id="list">
 				<table>
-				
 					<thead>
 						<tr>
 							<th>번호</th>		
@@ -219,8 +192,27 @@
 					</tbody>
 					
 				</table>
+				
+				<div id="paging">
+							<ul>
+								<li><a href="">〈</a></li>
+								<li><a href="">《</a></li>
+								<li><a href="">1</a></li>
+								<li><a href="">2</a></li>
+								<li><a href="">3</a></li>
+								<li><a href="">4</a></li>
+								<li class="active"><a href="">5</a></li>
+								<li><a href="">6</a></li>
+								<li><a href="">7</a></li>
+								<li><a href="">8</a></li>
+								<li><a href="">9</a></li>
+								<li><a href="">10</a></li>
+								<li><a href="">〉</a></li>
+								<li><a href="">》</a></li>
+							</ul>
+				</div>				
+			</div>
 		</div>
-	</div>
 		
 		
 		
