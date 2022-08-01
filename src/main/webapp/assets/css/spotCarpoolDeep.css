@@ -8,6 +8,62 @@ body {
 	font-size: 14px;
 }
 
+#wrap {
+ 	width: 1920px;
+	margin: 0px auto;
+	position: relative;
+}
+
+#content {
+	width: 1440px;
+	margin:0px auto;
+}
+
+#content-head{
+	
+  width: 1440px;
+  height: 200px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+
+}
+#content-head h1 {
+  width: 700px;
+  color: rgba(30,30,30,1);
+  /*position: absolute;*/
+  top: 303px;
+  left: 251px;
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+  float: left;
+  padding: 100px 0px 0px 0px;
+  
+}
+
+#content-head h2 {
+  width: 500px;
+  color: rgba(30,30,30,1);
+  /*position: absolute;*/
+  top: 303px;
+  left: 975px;
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+  float: right;
+  padding: 100px 50px 0px 0px;
+  margin: 0px 210px 0px 0px;
+}
+
+
 .v234_9411 {
 	width: 100%;
 	height: 3246px;

@@ -13,5 +13,11 @@ public class SpotMainController {
 		return "/carpool/spotMain";
 	}
 	
+	@RequestMapping("/spotCarpoolMain")
+	public String test2() {
+		System.out.println("/spotcarpool/main");
+		return "/carpool/spotCarpoolMain";
+	}
+	
 	
 }

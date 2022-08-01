@@ -6,16 +6,181 @@
 body {
   font-size: 14px;
 }
-.v88_8301 {
-  width: 100%;
-  height: 2416px;
+
+#wrap {
+ 	width: 1920px;
+	margin: 0px auto;
+	position: relative;
+}
+
+#content {
+	width: 1440px;
+	margin:0px auto;
+}
+
+#content-head{
+	
+  width: 1440px;
+  height: 200px;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
   top: 0px;
   left: 0px;
   overflow: hidden;
+
 }
+#content-head h1 {
+  width: 700px;
+  color: rgba(30,30,30,1);
+  /*position: absolute;*/
+  top: 303px;
+  left: 251px;
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+  float: left;
+  padding: 100px 0px 0px 0px;
+  
+}
+
+#content-head h2 {
+  width: 500px;
+  color: rgba(30,30,30,1);
+  /*position: absolute;*/
+  top: 303px;
+  left: 975px;
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+  float: right;
+  padding: 100px 50px 0px 0px;
+  margin: 0px 210px 0px 0px;
+}
+
+
+.detail{
+  width: 727px;
+  height:55px;
+  color: rgba(72,72,72,1);
+  position: absolute;
+  top: 520px;
+  left: 950px;
+  font-family: Noto Sans;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+  border:1px solid #bfbfbf;  
+  padding:15px 0px 0px 0px;
+}
+
+.detailtext{
+	padding: 0px 20px 0px 20px;
+
+}
+
+/***********************************************************************************************************************/
+    
+/****** 카풀 리스트 table ******/
+#list table {
+    width: 1440px;
+	border-collapse: collapse;
+	position: absolute;
+    font-family: Noto Sans;
+    font-weight: Semibold; 
+    font-size: 16px;
+    text-align: center;
+	
+}
+
+/* 카풀 table */
+#list table>thead>tr {
+    border-top: 2px solid rgba(73,85,159,1); 
+    border-bottom: 1px solid rgba(245,245,245,1);
+    background-color: rgba(245,245,245,1); 
+    padding: 0px;
+    
+   
+}
+
+#list table>thead>tr>th {
+    padding: 25px 0px 25px 0px;
+    font-weight: bold; 
+}
+
+#list table>tbody>tr { 
+    border-bottom: 1px solid rgba(245,245,245,1);
+  
+}
+
+#list table>tbody>tr:hover { 
+	background-color: rgba(245,245,245,1); 
+}
+
+#list table>tbody>tr>td {
+    padding: 25px 0px 25px 0px;
+}
+
+.board {
+  width: 112px;
+  height: 42px;
+  background: rgba(239,239,239,1);
+  color: rgba(70,84,163,1);
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 16px;
+  /*opacity: 1;
+  position: absolute;*/
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border:none;
+  padding: 10px 20px 10px 20px;
+  overflow: hidden;
+  
+}
+
+/********************리스트 페이징**********/
+#paging {
+	margin: 0px auto;
+	width: 672px;
+    height: 54px;
+    background: url(../images/v234_9214.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1630px;
+    left: 420px;
+    overflow: hidden;
+    font-family: Noto Sans;
+  	font-weight: bold;
+  	font-size: 16px;
+    
+}
+
+#paging ul {
+	margin: 10px 5px 10px 5px;
+	
+}
+
+#paging ul>li{
+	float: left;
+	margin: 0px 15px 0px 15px;
+}
+
+#paging ul>li.active{
+	font-size: 16px;
+	font-weight: bold;
+}
+
 
 /*최상단 "스팟메이트 안전 대책"*/
 
@@ -646,7 +811,9 @@ body {
   top: 20px;
   left: 19px;
 }
-.v234_9243 {
+
+
+.police {
   width: 158px;
   height: 365px;
   background: url("../images/v234_9243.png");
@@ -659,6 +826,7 @@ body {
   left: 1722px;
   overflow: hidden;
 }
+/* 오른쪽 경찰 신고 배너
 .v234_9244 {
   width: 60px;
   height: 60px;
@@ -673,7 +841,6 @@ body {
   overflow: hidden;
 }
 
-/* 오른쪽 경찰 신고 화살표
 
 .v234_9245 {
   width: 60px;
@@ -1363,98 +1530,6 @@ body {
 }
 
 
-    
-/****** 카풀 리스트 table ******/
-#carpoolList #list table {
-    width: 1440px;
-	border-collapse: collapse;
-	position: absolute;
-	top: 694px;
-    left: 244px;
-    font-family: Noto Sans;
-    font-weight: Semibold; 
-    font-size: 16px;
-    text-align: center;
-	
-}
-
-/* 카풀 table */
-#carpoolList #list table>thead>tr {
-    border-top: 2px solid rgba(73,85,159,1); 
-    border-bottom: 1px solid rgba(245,245,245,1);
-    background-color: rgba(245,245,245,1); 
-    padding: 0px;
-    
-   
-}
-
-#carpoolList #list table>thead>tr>th {
-    padding: 25px 0px 25px 0px;
-    font-weight: bold; 
-}
-
-#carpoolList #list table>tbody>tr { 
-    border-bottom: 1px solid rgba(245,245,245,1);
-  
-}
-
-#carpoolList #list table>tbody>tr:hover { 
-	background-color: rgba(245,245,245,1); 
-}
-
-#carpoolList #list table>tbody>tr>td {
-    padding: 25px 0px 25px 0px;
-}
-
-.board {
-  width: 112px;
-  height: 42px;
-  background: rgba(239,239,239,1);
-  color: rgba(70,84,163,1);
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 16px;
-  /*opacity: 1;
-  position: absolute;*/
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  padding: 10px 20px 10px 20px;
-  overflow: hidden;
-  
-}
-
-/********************리스트 페이징**********/
-#carpoolList #list #paging {
-	margin: 0px auto;
-	width: 672px;
-    height: 54px;
-    background: url(../images/v234_9214.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 1626px;
-    left: 685px;
-    overflow: hidden;
-    font-family: Noto Sans;
-  	font-weight: bold;
-  	font-size: 16px;
-    
-}
-
-#carpoolList #list #paging ul {margin: 10px 5px 10px 5px;}
-#carpoolList #list #paging ul>li{
-	float: left;
-	margin: 0px 15px 0px 15px;
-}
-
-#carpoolList #list #paging ul>li.active{
-	font-size: 16px;
-	font-weight: bold;
-}
 
 .v234_9313 {
   width: 10px;
@@ -1752,11 +1827,11 @@ body {
 /******상세조건 탭 텍스트*****/
 
 .v234_9367 {
-  width: 65px;
+  width: 90px;
   color: rgba(91,91,91,1);
   position: absolute;
   top: 536px;
-  left: 1005px;
+  left: 977px;
   font-family: Noto Sans;
   font-weight: Regular;
   font-size: 16px;
@@ -1764,11 +1839,11 @@ body {
   text-align: left;
 }
 .v234_9368 {
-  width: 98px;
+  width: 120px;
   color: rgba(73,85,159,1);
   position: absolute;
   top: 536px;
-  left: 1127px;
+  left: 1080px;
   font-family: Noto Sans;
   font-weight: SemiBold;
   font-size: 16px;
@@ -1782,11 +1857,11 @@ body {
   color: #fff;
 }
 .v234_9371 {
-  width: 68px;
+  width: 90px;
   color: rgba(72,72,72,1);
   position: absolute;
-  top: 535px;
-  left: 1275px;
+  top: 536px;
+  left: 1230px;
   font-family: Noto Sans;
   font-weight: Medium;
   font-size: 16px;
@@ -1797,11 +1872,11 @@ body {
   color: #fff;
 }
 .v234_9373 {
-  width: 175px;
+  width: 200px;
   color: rgba(72,72,72,1);
   position: absolute;
-  top: 537px;
-  left: 1390px;
+  top: 536px;
+  left: 1340px;
   font-family: Noto Sans;
   font-weight: Medium;
   font-size: 16px;
@@ -1811,16 +1886,38 @@ body {
 .name {
   color: #fff;
 }
-.v234_9375 {
+
+/*****배너*****/
+
+.banner {
   width: 100%;
   height: 200px;
-  background: rgba(255,255,255,1);
+  background: rgba(245,245,245,1);
   opacity: 1;
   position: absolute;
   top: 1856px;
   left: 1px;
   overflow: hidden;
+  /*background: url("../images/v234_9376.png");*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
+
+.bannerText {
+  width: 137px;
+  color: rgba(30,30,30,1);
+  position: absolute;
+  top: 97px;
+  left: 892px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+
+/*
 .v234_9376 {
   width: 100%;
   height: 200px;
@@ -1834,6 +1931,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
+
 .v234_9377 {
   width: 100%;
   height: 200px;
@@ -1857,6 +1955,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
+
 .v234_9379 {
   width: 100%;
   height: 200px;
@@ -1866,20 +1965,9 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
-}
-.v234_9380 {
-  width: 137px;
-  color: rgba(30,30,30,1);
-  position: absolute;
-  top: 97px;
-  left: 892px;
-  font-family: Montserrat;
-  font-weight: Bold;
-  font-size: 30px;
-  opacity: 1;
-  text-align: left;
-}
-.v234_9381 {
+}*/
+
+#footer {
   width: 100%;
   height: 360px;
   background: rgba(249,250,251,1);
@@ -1889,15 +1977,23 @@ body {
   left: 1px;
   overflow: hidden;
 }
-.v234_9382 {
-  width: 100%;
-  height: 361px;
-  background: rgba(249,250,251,1);
-  opacity: 1;
-  position: absolute;
-  top: 1px;
-  left: 0px;
+
+#footer ul {margin: 10px 5px 10px 5px;}
+#footer ul>li{
+	float: left;
+	margin: 0px 15px 0px 15px;
+	top: 73px;
+	width: 85px;
+	left: 500px;
+	font-family: Noto Sans;
+  	font-weight: Bold;
+  	font-size: 20px;
+  	opacity: 1;
+  	text-align: left;
+  	color: rgba(30,30,30,1);
+  
 }
+
 .v234_9383 {
   width: 100%;
   height: 257px;

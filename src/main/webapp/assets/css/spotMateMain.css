@@ -70,18 +70,18 @@ a {
 }
 
 /* header */
-#safe {
+.safe {
 	height: 50px;
 	text-align: center;
 	background-color: #4454a1;
 	padding: 10px 0px 0px 0px;
 }
 
-#safe a {
+.safe a {
 	color: #ffffff;
 }
 
-#safe a:hover {
+.safe a:hover {
 	text-decoration: underline;
 }
 

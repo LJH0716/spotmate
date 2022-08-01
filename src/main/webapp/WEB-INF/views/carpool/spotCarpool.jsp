@@ -23,15 +23,20 @@
 <body>
 
 
-	<div class="v88_8301">
-		<div class="v234_9189"></div>
-		<span class="v234_9190">같이 타고 가요 SPOT CARPOOL</span> 
-		<span class="v234_9191">이동하는 경로가 비슷한 드라이버를 찾아 출발지부터 목적지까지 편하게 이동해보세요.</span>
-		<div class="v234_9192"></div>
-		<div class="v234_9193"></div>
-		<div class="v234_9194"></div>
-		<div class="v234_9195"></div>
-		<div class="v234_9196"></div>
+	<div id="wrap">
+	
+		<!-- //header -->
+		<header class="header_warpper">
+			<div style="background-color: bisque; height: 200px;"></div>
+		</header>
+	
+		<input type="text" name="departure" value="" placeholder="출발지를 입력하세요">
+		<input type="text" name="destination" value="" placeholder="도착지를 입력하세요">
+		<input type="text" name="startTime" value="" placeholder="출발시간">
+		<input type="text" name="number" value="" placeholder="인원수">
+		<input type="text" name="startDay" value="" placeholder="이용 출발 날짜">
+		<input type="text" name="endDay" value="" placeholder="이용 도착 날짜">
+		
 		<div class="v234_9197"></div>
 		<div class="v234_9198"></div>
 		<div class="v234_9199"></div>
@@ -50,41 +55,24 @@
 		<div class="name"></div>
 		<span class="v234_9213">탑승 가능 차량 리스트</span>
 		
+				
 		
-		 
-		<div class="v234_9243"></div>
-		<div class="v234_9244">
-			<div class="v234_9245"></div>
-			<div class="v234_9246"></div>
-		</div>
-		<div class="v234_9247"></div>
-		<div class="v234_9248">
-			<div class="v234_9249">
-				<div class="v234_9250"></div>
-				<span class="v234_9251">DRIVER</span>
-				<span class="v234_9252">NOTICE</span>
-				<span class="v234_9253">MATE</span>
-				<span class="v234_9254">SPOT</span>
-				<span class="v234_9255">BRAND</span>
-				
-				<span class="safetytext">안전하게 이용하는 스팟메이트 안전 대책 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></span>
-				
-				<div class="v234_9257"></div>
-				<div class="v234_9258"></div>
-				<div class="name"></div>
-				<div class="name"></div>
-				<div class="name"></div>
-				<div class="v234_9262"></div>
-				<div class="v234_9263"></div>
-				<span class="v234_9264">joyunju12345</span>
-				<span class="v234_9265">CARPOOL</span>
-				<span class="v234_9266">HITCHHIKE</span>
+		<!-- CONTENT -->
+
+		<div id="content" style="position: relative; height: 1800px;" class="clearfix">
+			<div id="content-head">
+
+				<h1>
+					같이 타고 가요 <br> SPOT CARPOOL
+				</h1>
+
+				<h2>
+					이동하는 경로가 비슷한 드라이버를 찾아 <br>출발지부터 목적지까지 편하게 이동해보세요.
+				</h2>
+
 			</div>
-		</div>
-		
-		
-		<div id="carpoolList">
-			<div id="list">
+			
+			<div id="list" style="position: absolute; top:500px; height:1000px; width:100%">
 				<table>
 					<thead>
 						<tr>
@@ -105,8 +93,8 @@
 							<td>출발지</td>
 							<td>도착지</td>
 							<td>+3000P</td>
-							<td><a href="">spotmate123</a></td>
-							<td><span class="board">탑승요청</span></td>
+							<td>spotmate123</td>
+							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
 						<tr>
 							<td>2</td>
@@ -114,8 +102,8 @@
 							<td>출발지</td>
 							<td>도착지</td>
 							<td>+3000P</td>
-							<td><a href="">spotmate123</a></td>
-							<td><span class="board">탑승요청</span></td>
+							<td>spotmate123</td>
+							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
 						<tr>
 							<td>3</td>
@@ -123,8 +111,8 @@
 							<td>출발지</td>
 							<td>도착지</td>
 							<td>+3000P</td>
-							<td><a href="">spotmate123</a></td>
-							<td><span class="board">탑승요청</span></td>
+							<td>spotmate123</td>
+							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
 						<tr>
 							<td>4</td>
@@ -132,8 +120,8 @@
 							<td>출발지</td>
 							<td>도착지</td>
 							<td>+3000P</td>
-							<td><a href="">spotmate123</a></td>
-							<td><span class="board">탑승요청</span></td>
+							<td>spotmate123</td>
+							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
 						<tr>
 							<td>5</td>
@@ -141,8 +129,8 @@
 							<td>출발지</td>
 							<td>도착지</td>
 							<td>+3000P</td>
-							<td><a href="">spotmate123</a></td>
-							<td><span class="board">탑승요청</span></td>
+							<td>spotmate123</td>
+							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
 						<tr>
 							<td>6</td>
@@ -150,8 +138,8 @@
 							<td>출발지</td>
 							<td>도착지</td>
 							<td>+3000P</td>
-							<td><a href="">spotmate123</a></td>
-							<td><span class="board">탑승요청</span></td>
+							<td>spotmate123</td>
+							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
 						<tr>
 							<td>7</td>
@@ -159,8 +147,8 @@
 							<td>출발지</td>
 							<td>도착지</td>
 							<td>+3000P</td>
-							<td><a href="">spotmate123</a></td>
-							<td><span class="board">탑승요청</span></td>
+							<td>spotmate123</td>
+							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
 						<tr>
 							<td>8</td>
@@ -168,8 +156,8 @@
 							<td>출발지</td>
 							<td>도착지</td>
 							<td>+3000P</td>
-							<td><a href="">spotmate123</a></td>
-							<td><span class="board">탑승요청</span></td>
+							<td>spotmate123</td>
+							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
 						<tr>
 							<td>9</td>
@@ -177,8 +165,8 @@
 							<td>출발지</td>
 							<td>도착지</td>
 							<td>+3000P</td>
-							<td><a href="">spotmate123</a></td>
-							<td><span class="board">탑승요청</span></td>
+							<td>spotmate123</td>
+							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
 						<tr>
 							<td>10</td>
@@ -186,12 +174,14 @@
 							<td>출발지</td>
 							<td>도착지</td>
 							<td>+3000P</td>
-							<td><a href="">spotmate123</a></td>
-							<td><span class="board">탑승요청</span></td>
+							<td>spotmate123</td>
+							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
 					</tbody>
 					
 				</table>
+				
+				</div>
 				
 				<div id="paging">
 							<ul>
@@ -212,66 +202,34 @@
 							</ul>
 				</div>				
 			</div>
+	
+	
+		
+		
+		<div class="detail">
+			<span class="detailtext"><input type="checkbox" name="detailCondition" value="nonSmoke">&nbsp;&nbsp;비흡연자</span>
+			<span class="detailtext"><input type="checkbox" name="detailCondition" value="femaleDriver">&nbsp;&nbsp;여성드라이버</span>
+			<span class="detailtext"><input type="checkbox" name="detailCondition" value="pet">&nbsp;&nbsp;반려동물</span>
+			<span class="detailtext"><input type="checkbox" name="detailCondition" value="phoneCharger">&nbsp;&nbsp;핸드폰 충전기 이용 가능</span>
+			
+			<!--  
+			<span class="v234_9367"><input type="checkbox" name="detailCondition" value="handWash">&nbsp;&nbsp;손소독제 보유</span>
+			<span class="v234_9367"><input type="checkbox" name="detailCondition" value="carWifi">&nbsp;&nbsp;차량 와이파이 이용 가능</span>
+			<span class="v234_9367"><input type="checkbox" name="detailCondition" value="silence">&nbsp;&nbsp;조용하게 가는 것을 선호</span>
+			<span class="v234_9367"><input type="checkbox" name="detailCondition" value="useTrunk">&nbsp;&nbsp;트렁크 사용 가능</span>
+			-->
 		</div>
 		
 		
 		
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<span class="v234_9367">비흡연자</span>
-		<span class="v234_9368">여성드라이버</span>
-		<div class="name"></div>
-		<div class="name"></div>
-		<span class="v234_9371">반려동물</span>
-		<div class="name"></div>
-		<span class="v234_9373">핸드폰 충전기 이용 가능</span>
-		<div class="name"></div>
-		
-		
-		<div class="v234_9375">
-			<div class="v234_9376">
-			<div class="v234_9377"></div>
-				<div class="v234_9378">
-					<div class="v234_9379"></div>
-				</div>
-				<span class="v234_9380">BANNER</span>
-			</div>
-		</div>
-		
-		
-		<div class="v234_9381">
-			<div class="v234_9382"></div>
-			<div class="v234_9383">
-				<span class="v234_9384">SERVICE</span>
-				<span class="v234_9385">PORTFOLIO</span>
-				<span class="v234_9386">BRAND</span>
-				<span class="v234_9387">SPOT</span>
-				<span class="v234_9388">MATE</span>
-				<span class="v234_9389">DRIVER</span>
-				<span class="v234_9390">NOTICE</span>
-				<div class="name"></div>
-				<div class="v234_9392"></div>
-				<span class="v234_9393">이용약관 | 개인정보 처리방침 | 고객센터</span>
-				<span class="v234_9394">
-					(주)SPOTMATE | TEAM 이정화 김려경 양지훈 유지은 이준규 조윤주 | 서울특별시 관악구 봉천동 862-1 | 대표번호 : 1800 - 2022 사업자 등록번호 106-86-68127 
-					Copyright © 2022 spotmate. All Rights Reserved.</span>
-				<div class="v234_9395"></div>
-				<span class="v234_9396">GITHUB</span>
-				<div class="name"></div>
-				<div class="v234_9398"></div>
-			</div>
-		</div>
-
+		<!-- BANNER & FOOTER -->
+		<footer class="footer_warpper">
+			<div style="background-color: bisque; height: 560px;"></div>
+		</footer>
+	
+	
+	
+	</div>
 
 	
 </body>

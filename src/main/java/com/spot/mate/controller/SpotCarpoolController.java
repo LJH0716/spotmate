@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SpotCarpoolController {
 
 	//메인화면
-	@RequestMapping("/spotcarpool")
+	@RequestMapping("/spotCarpool")
 	public String test() {
 		System.out.println("/spot/carpool");
 		return "/carpool/spotCarpool";
