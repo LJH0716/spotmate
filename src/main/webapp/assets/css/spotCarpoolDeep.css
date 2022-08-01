@@ -30,6 +30,7 @@ body {
   left: 0px;
   overflow: hidden;
 
+
 }
 #content-head h1 {
   width: 700px;
@@ -43,7 +44,7 @@ body {
   opacity: 1;
   text-align: left;
   float: left;
-  padding: 100px 0px 0px 0px;
+  padding: 100px 0px 0px 10px;
   
 }
 
@@ -64,6 +65,262 @@ body {
 }
 
 
+#aside{
+	width: 360px;
+    height: 810px;
+    background: url(../images/v240_9671.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 441px;
+    left: 1070px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    overflow: hidden;
+       
+}
+
+.confirmForm{
+    color: rgba(91,91,91,1);
+	font-family: Noto Sans;
+    font-weight: semiBold;
+    font-size: 18px;
+    text-align: left;
+    padding: 30px 0px 15px 55px;
+
+  
+}  
+
+hr{
+	width:250px;
+} 
+
+.confirm{
+    color: rgba(91,91,91,1);
+	font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 18px;
+    text-align: left;
+    border:none;   
+
+}   
+
+.point{
+    color: rgba(91,91,91,1);
+	font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 0px 15px 55px;
+
+  
+}  
+
+.pointConfirm{
+    color: rgba(73,85,159,1);
+	font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    text-align: left;
+    border:none;
+   
+} 
+
+.pointText {
+	color: rgba(91,91,91,1);
+	font-family: Noto Sans;
+    font-weight: regular;
+    font-size: 14px;
+    text-align: left;
+	
+}
+
+.rideButton{
+	width: 310px;
+    height: 65px;
+    background: rgba(70,84,163,1);
+    /*opacity: 1;
+    position: absolute;*/
+    top: 1141px;
+    left: 1360px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border:none;
+    overflow: hidden;   
+    color: rgba(255,255,255,1);        
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 24px;    
+    text-align: center;
+    margin: 0px 0px 0px 23px;
+}
+
+#top{
+	border-bottom-style: solid;
+	border-bottom-color: rgba(91,91,91,1); 
+	border-width: 1px;
+	padding: 0px 0px 30px 0px;
+}
+
+.path{
+	color: rgba(72,72,72,1);
+    top: 461px;
+    left: 245px;
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+    padding:0px 0px 0px 10px;
+}
+
+.pathConfirm{
+	width: 300px;
+    color: rgba(72,72,72,1);
+    top: 532px;
+    left: 250px;
+    font-family: Noto Sans;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    padding:0px 0px 0px 10px;
+}
+
+.pathPicto{
+	width: 20px;
+    height: 95px;
+    background: rgba(91,91,91,1);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 572px;
+    overflow: hidden;
+    margin:0px 400px 0px 0px;
+    float:left;
+}
+
+.pathTime{
+	width: 300px;
+    color: rgba(73,85,159,1);  
+    top: 564px;
+    left: 928px;
+    font-family: Noto Sans;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+   /* float:right;*/
+    margin:0px 0px 0px 300px;    
+}
+
+.authDriverInfo{
+	width: 420px;
+    color: rgba(72,72,72,1);
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+}    
+    
+.qnaButton{
+	width: 130px;
+    height: 40px;
+    background: rgba(239,239,239,1);
+    opacity: 1;
+    top: 705px;
+    left: 1069px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:none;
+    overflow: hidden;
+    float:right;
+    margin: 38px 0px 0px 0px;
+    color: rgba(95,95,95,1);
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 16px;
+    text-align: left;
+}
+
+.qnapicto {
+  width: 28px;
+  height: 28px;
+  background: rgba(255,255,255,1);
+  /*opacity: 1;
+  position: absolute;*/
+  top: 463px;
+  left: 1613px;
+  margin: 0px 10px 0px 8px;
+  float: left; 
+}
+
+.driverIntoduce{
+	width: 170px;
+    color: rgba(72,72,72,1);
+    position: absolute;
+    top: 650px;
+    left: 0px;
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+     padding: 0px 0px 0px 10px;
+}   
+    
+.introduceText{
+	width: 800px;
+    color: rgba(72,72,72,1);
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    font-family: Noto Sans;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+}   
+
+.picture > a {
+	width:1000px;
+	height:300px;
+	margin:0px auto;
+	overflow:hidden;
+	opacity: 1;
+	
+}
+.picture > a > div {
+	transition: all 0.2s linear;	
+}
+
+.picture-text {
+	width: 400px;
+    color: rgba(255,255,255,1);
+    /*position: absolute;*/
+    top: 680px;
+    left: 600px;
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    margin:0px 0px 0px 130px;
+}	 
 .v234_9411 {
 	width: 100%;
 	height: 3246px;
