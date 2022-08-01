@@ -26,41 +26,17 @@
 	<div id="wrap">
 	
 		<!-- //header -->
+		
 		<header class="header_warpper">
 			<div style="background-color: bisque; height: 200px;"></div>
 		</header>
-	
-		<input type="text" name="departure" value="" placeholder="출발지를 입력하세요">
-		<input type="text" name="destination" value="" placeholder="도착지를 입력하세요">
-		<input type="text" name="startTime" value="" placeholder="출발시간">
-		<input type="text" name="number" value="" placeholder="인원수">
-		<input type="text" name="startDay" value="" placeholder="이용 출발 날짜">
-		<input type="text" name="endDay" value="" placeholder="이용 도착 날짜">
 		
-		<div class="v234_9197"></div>
-		<div class="v234_9198"></div>
-		<div class="v234_9199"></div>
-		<span class="v234_9200">출발지를 입력하세요</span> 
-		<span class="v234_9201">이용 출발 날짜</span>
-		<span class="v234_9202">출발시간</span>
-		<span class="v234_9203">도착지를 입력하세요</span> 
-		<span class="v234_9204">이용 도착 날짜</span> 
-		<span class="v234_9205">인원수</span>
-		<span class="v234_9206">검색하기</span>
-		<div class="name"></div>
-		<div class="name"></div>
-		<div class="v234_9209"></div>
-		<div class="v234_9210"></div>
-		<div class="name"></div>
-		<div class="name"></div>
-		<span class="v234_9213">탑승 가능 차량 리스트</span>
-		
-				
+					
 		
 		<!-- CONTENT -->
 
 		<div id="content" style="position: relative; height: 1800px;" class="clearfix">
-			<div id="content-head">
+			<div id="content-head" style="position: absolute; top:0px; height:200px; width:100%">
 
 				<h1>
 					같이 타고 가요 <br> SPOT CARPOOL
@@ -71,8 +47,41 @@
 				</h2>
 
 			</div>
-			
+
+			<div id="searchForm" style="position: absolute; top:230px; height:200px; width:100%">
+				
+				<input class="input1" type="text" name="departure" value="" placeholder="출발지를 입력하세요">
+				<input class="input2" type="text" name="destination" value="" placeholder="도착지를 입력하세요">
+				<input class="input3" type="text" name="startTime" value="" placeholder="출발시간">
+				<input class="input4" type="text" name="number" value="" placeholder="인원수"> 
+				<input class="input5" type="text" name="startDay" value="" placeholder="이용 출발 날짜">
+				<input class="input6" type="text" name="endDay" value="" placeholder="이용 도착 날짜"> 
+				
+				<button class="search"><div class="picto4"></div>검색하기</button>
+
+				<div class="detail">
+					<span class="detailtext"><input type="checkbox" name="detailCondition" value="nonSmoke">&nbsp;&nbsp;비흡연자</span>
+					<span class="detailtext"><input type="checkbox" name="detailCondition" value="femaleDriver">&nbsp;&nbsp;여성드라이버</span>
+					<span class="detailtext"><input type="checkbox" name="detailCondition" value="pet">&nbsp;&nbsp;반려동물</span> 
+					<span class="detailtext"><input type="checkbox" name="detailCondition" value="phoneCharger">&nbsp;&nbsp;핸드폰 충전기 이용 가능</span>
+
+					<!--  
+				<span class="v234_9367"><input type="checkbox" name="detailCondition" value="handWash">&nbsp;&nbsp;손소독제 보유</span>
+				<span class="v234_9367"><input type="checkbox" name="detailCondition" value="carWifi">&nbsp;&nbsp;차량 와이파이 이용 가능</span>
+				<span class="v234_9367"><input type="checkbox" name="detailCondition" value="silence">&nbsp;&nbsp;조용하게 가는 것을 선호</span>
+				<span class="v234_9367"><input type="checkbox" name="detailCondition" value="useTrunk">&nbsp;&nbsp;트렁크 사용 가능</span>
+				-->
+				</div>
+			</div>
+
+
+			<div id="carList" style="position: absolute; top:435px; height:50px; width:100%">
+				<span class="listText">탑승 가능 차량 리스트</span>
+			</div>
+
+
 			<div id="list" style="position: absolute; top:500px; height:1000px; width:100%">
+		
 				<table>
 					<thead>
 						<tr>
@@ -201,24 +210,8 @@
 								<li><a href="">》</a></li>
 							</ul>
 				</div>				
-			</div>
-	
-	
+			</div>		
 		
-		
-		<div class="detail">
-			<span class="detailtext"><input type="checkbox" name="detailCondition" value="nonSmoke">&nbsp;&nbsp;비흡연자</span>
-			<span class="detailtext"><input type="checkbox" name="detailCondition" value="femaleDriver">&nbsp;&nbsp;여성드라이버</span>
-			<span class="detailtext"><input type="checkbox" name="detailCondition" value="pet">&nbsp;&nbsp;반려동물</span>
-			<span class="detailtext"><input type="checkbox" name="detailCondition" value="phoneCharger">&nbsp;&nbsp;핸드폰 충전기 이용 가능</span>
-			
-			<!--  
-			<span class="v234_9367"><input type="checkbox" name="detailCondition" value="handWash">&nbsp;&nbsp;손소독제 보유</span>
-			<span class="v234_9367"><input type="checkbox" name="detailCondition" value="carWifi">&nbsp;&nbsp;차량 와이파이 이용 가능</span>
-			<span class="v234_9367"><input type="checkbox" name="detailCondition" value="silence">&nbsp;&nbsp;조용하게 가는 것을 선호</span>
-			<span class="v234_9367"><input type="checkbox" name="detailCondition" value="useTrunk">&nbsp;&nbsp;트렁크 사용 가능</span>
-			-->
-		</div>
 		
 		
 		
