@@ -6,13 +6,9 @@
 <head>
 <meta charset="UTF-8">
 
-<link href="${pageContext.request.contextPath}/assets/css/spotMateMain.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/spotCarpool.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/spotCommon.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.min.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css">
 
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
 
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 

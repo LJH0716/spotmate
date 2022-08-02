@@ -6,14 +6,9 @@
 <head>
 <meta charset="UTF-8">
 
-<link href="${pageContext.request.contextPath}/assets/css/spotMateMain.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/spotCarpoolDeep.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.min.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css">
 
-
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-<link href="./css/main.css" rel="stylesheet" />
 
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 </head>
@@ -42,7 +37,7 @@
 			</div>
 		
 			<div id="aside" style="position: absolute; top:220px; height:810px; width:360px;"> 
-				<div class="confirmForm">
+				<form class="confirmForm">
 					출발지<br>
 					<input class="confirm" type="text" name="departure" value="대방역 1호선 2번 출구" ><br><br>
 					목적지<br>
@@ -55,10 +50,8 @@
 					<input class="confirm" type="text" name="startDay" value="2022.07.25.월요일" ><br><br>
 					마지막 탑승일<br>
 					<input class="confirm" type="text" name="endDay" value="2022.08.25.화요일" ><br><br>
-					
-					<hr>
-					
-				</div>
+										
+				</form>
 				
 				<div class="point">	
 					총 결제 포인트<br>
@@ -74,34 +67,35 @@
 			<div id="section1" style="position: absolute; top:220px; height:820px; width:1000px;">
 			
 				<div id="top">
-					<h3 class="path">이동 경로 안내</h3>
-					<br><br>
-					
-					
-					<span class="pathConfirm">
-					출발지 &nbsp;&nbsp;<input class="confirm" type="text" name="departure" value="대방역 1호선 2번 출구" >
-					</span>
-					<br><br><br>
-					<span class="pathConfirm">
-					도착지 &nbsp;&nbsp; <input class="confirm" type="text" name="destination" value="NAVER 본사" >
-					</span>
-					
-					<div class="pathPicto">
+					<div class="top1">
+						<h3>이동 경로 안내</h3>
+						
+						<span class="pathConfirm">출발지 &nbsp;&nbsp;
+							<input class="confirm" type="text" name="departure" value="대방역 1호선 2번 출구" >
+						</span>
+						
+						<span class="pathConfirm">도착지 &nbsp;&nbsp; 
+							<input class="confirm" type="text" name="destination" value="NAVER 본사" >
+						</span>
 					</div>
-					
-					<span class="pathTime">도착지까지 예상 소요 시간 23분, 21km</span>
-										
+					<div class="top2">
+						<span class="pathPicto"></span>
+						<span class="pathTime">도착지까지 예상 소요 시간 23분, 21km</span>
+					</div>
 				</div>
+				
+				
 				
 				<div id="middle">
 					<h4 class="authDriverInfo">SPOTMATE12 드라이버님의 차량 정보</h4>
 					
 					<div class="picture">
 						<a href="">
-							<div style="height: 300px; width: 1000px; position: absolute; background: url(/assets/images/car.png); background-size: cover; top: 300px; left: 0px;"></div>
-							<h5 style="position: absolute; top: 430px; left: 160px;" class="picture-text">
-								TESLA Model 3
-							</h5>
+							<div style="height: 300px; width: 1000px; position: absolute; background: url(/assets/images/car.png); background-size: cover; top: 300px; left: 0px;">
+								<h5 style="position: absolute; top: 430px; left: 160px;" class="picture-text">
+									TESLA Model 3
+								</h5>
+							</div>
 						</a>
 					</div>
 				
@@ -111,6 +105,7 @@
 				</div>
 				
 				<div id="bottom">
+				
 					<h6 class="driverIntoduce">드라이버 소개</h6>
 					
 					<p class="introduceText">
@@ -126,14 +121,60 @@
 					
 			
 			<div id="section2" style="position: absolute; top:1090px; height:250px; width:1440px;">
+			
+				<h6 class="driverInfo">드라이버 차량 정보</h6>
+				
+				
+				<table class="driverInfo_table">
+					<tr>
+						<td><span class="infoPicto"></span>손 소독제 보유</td>		
+						<td><span class="infoPicto"></span>조용하게 가는 것을 선호</td>
+					</tr>
+					<tr>
+						<td><span class="infoPicto"></span>여성 드라이버</td>
+						<td><span class="infoPicto"></span>차량 와이파이 이용 가능</td>
+					</tr>
+					<tr>
+						<td><span class="infoPicto"></span>비흡연</td>
+						<td><span class="infoPicto"></span>반려동물 탑승 가능</td>									
+					</tr>
+				</table>
+				
+				
 			</div>
 			
 			<div id="section3" style="position: absolute; top: 1360px; height: 300px; width:1440px;">
+				
+				<h6 class="review"> Reviews ★ 4.5</h6>
+				
 			</div>
 			
 			
 			<div id="section4" style="position: absolute; top:1680px; height:350px; width:1440px;">
+				
+				<h6 class="recommend"> 차량 추천 리스트</h6>
+				
+				<div class="recommendList">
+					<table>
+						<tr>
+							<td>드라이버:spotmate1234</td>
+						</tr>
+						<tr>
+							<td>출발일시:2022-07-20</td>
+						</tr>
+						<tr>
+							<td>소요 포인트 3,000P</td>
+						</tr>
+					</table>
+				
+				</div>
+				
+				<!-- 
+				<button>추천 리스트 더보기 ></button>
+				 -->
+				
 			</div>
+			
 			
 			
 		</div>

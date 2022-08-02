@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 * {
 	box-sizing: border-box;
 }
@@ -87,20 +88,18 @@ body {
     font-weight: semiBold;
     font-size: 18px;
     text-align: left;
-    padding: 30px 0px 15px 55px;
-
+    padding: 30px 0px 15px 0px;
+    margin: 0px 50px;
+    border-bottom: 1px solid rgba(217,217,217,1);
   
 }  
 
-hr{
-	width:250px;
-} 
 
 .confirm{
     color: rgba(91,91,91,1);
 	font-family: Noto Sans;
     font-weight: Bold;
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     border:none;   
 
@@ -124,6 +123,7 @@ hr{
     font-size: 24px;
     text-align: left;
     border:none;
+    width:250px;
    
 } 
 
@@ -163,61 +163,50 @@ hr{
 	border-bottom-color: rgba(91,91,91,1); 
 	border-width: 1px;
 	padding: 0px 0px 30px 0px;
+	display : flex;
+}
+.top1 {
+	width : 600px;
+	height : 160px;
+}
+.top2 {
+	width : 400px;
+	height : 160px;
 }
 
-.path{
+.top1 > h3 {
 	color: rgba(72,72,72,1);
-    top: 461px;
-    left: 245px;
-    font-family: Noto Sans;
-    font-weight: Bold;
+    font-weight: 600;
     font-size: 24px;
-    opacity: 1;
-    text-align: left;
-    padding:0px 0px 0px 10px;
+    margin : 10px 10px 10px 10px;
 }
 
 .pathConfirm{
-	width: 300px;
+	display : inline-block;
     color: rgba(72,72,72,1);
-    top: 532px;
-    left: 250px;
-    font-family: Noto Sans;
-    font-weight: Medium;
+    font-weight: 500;
     font-size: 18px;
-    opacity: 1;
     text-align: left;
-    padding:0px 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
+    margin : 10px 0px 10px 0px;
 }
 
+
 .pathPicto{
+	position: absolute;
 	width: 20px;
-    height: 95px;
-    background: rgba(91,91,91,1);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 80px;
-    left: 572px;
-    overflow: hidden;
-    margin:0px 400px 0px 0px;
-    float:left;
+    height: 160px;
+    background-color: rgba(91,91,91,1);
 }
 
 .pathTime{
-	width: 300px;
+	position: absolute;
+	top : 65px;
+	right : 0px;
     color: rgba(73,85,159,1);  
-    top: 564px;
-    left: 928px;
-    font-family: Noto Sans;
-    font-weight: Medium;
+    font-weight: bold;
     font-size: 16px;
-    opacity: 1;
-    text-align: left;
-   /* float:right;*/
-    margin:0px 0px 0px 300px;    
+    
 }
 
 .authDriverInfo{
@@ -320,7 +309,100 @@ hr{
     opacity: 1;
     text-align: center;
     margin:0px 0px 0px 130px;
-}	 
+}
+
+.driverInfo{
+	width: 250px;
+    color: rgba(72,72,72,1);
+    /*position: absolute;*/
+    top: 300px;
+    left: 0px;
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    
+}
+
+#section2 table {
+    width: 700px;
+    color: rgba(72,72,72,1);
+	border-collapse: collapse;
+	position: absolute;
+    font-family: Noto Sans;
+    font-weight: Semibold; 
+    font-size: 16px;
+    text-align: left;
+        	
+}
+#section2 tr {
+	width : 300px;
+}
+
+#section2 td {
+	 padding: 10px 0px 10px 10px;
+	 
+	
+}
+.driverInfo_table {
+	position: relative;
+}
+
+.infoPicto:after {
+	content: "pic";
+	background-color : black;
+	margin : 0px 5px 0px 0px;
+}
+
+.review{
+	width: 250px;
+    color: rgba(72,72,72,1);
+    /*position: absolute;*/
+    top: 2110px;
+    left: 250px;
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+}
+
+
+.recommend{
+	width: 250px;
+    color: rgba(72,72,72,1);
+    /*position: absolute;*/
+    top: 2110px;
+    left: 250px;
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+}
+	
+.recommendList{
+	width: 298px;
+    height: 130px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 2181px;
+    left: 247px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 0px 8px rgb(1 1 1 / 50%);
+    overflow: hidden;
+}
+	
+
+	 
 .v234_9411 {
 	width: 100%;
 	height: 3246px;
