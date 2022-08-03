@@ -31,36 +31,56 @@
 		
 		<!-- CONTENT -->
 
-		<div id="content" style="position: relative; height: 1800px;" class="clearfix">
-			<div id="content-head" style="position: absolute; top:0px; height:200px; width:100%">
+		<div id="content" class="clearfix">
+			<div class="content-head">
 
-				<h1>
-					같이 타고 가요 <br> SPOT CARPOOL
-				</h1>
-
-				<h2>
-					이동하는 경로가 비슷한 드라이버를 찾아 <br>출발지부터 목적지까지 편하게 이동해보세요.
-				</h2>
+				<span class="carpool-MainText1"> 같이 타고 가요 <br> SPOT CARPOOL
+				</span> 
+				
+				<span class="carpool-MainText2"> 이동하는 경로가 비슷한 드라이버를 찾아 <br> 출발지부터 목적지까지 편하게 이동해보세요.
+				</span>
 
 			</div>
 
-			<div id="searchForm" style="position: absolute; top:230px; height:200px; width:100%">
+			<div class="searchForm">
 				
-				<input class="input1" type="text" name="departure" value="" placeholder="출발지를 입력하세요">
+				<button class="search"><span class="carpoolSearchPicto"></span>검색하기</button>
+				
+				
+				<form class="carpoolInput">
+					<input class="input1" type="text" name="departure" value="" placeholder="출발지를 입력하세요">
+					<button class="carpoolInput1Picto"></button>
+				</form>
+				
 				<input class="input2" type="text" name="destination" value="" placeholder="도착지를 입력하세요">
-				<input class="input3" type="text" name="startTime" value="" placeholder="출발시간">
-				<input class="input4" type="text" name="number" value="" placeholder="인원수"> 
-				<input class="input5" type="text" name="startDay" value="" placeholder="이용 출발 날짜">
-				<input class="input6" type="text" name="endDay" value="" placeholder="이용 도착 날짜"> 
 				
-				<button class="search"><div class="picto4"></div>검색하기</button>
+				<input class="input3" type="text" name="startTime" value="" placeholder="출발시간">
+				
+				<form class="carpoolInput">
+					<input class="input4" type="text" name="number" value="" placeholder="인원수">
+					<button class="carpoolInput4Picto"></button>
+				</form>
+				
+				<form class="carpoolInput"> 
+					<input class="input5" type="text" name="startDay" value="" placeholder="이용 출발 날짜">
+					<button class="carpoolInput5Picto"></button>
+				</form>
+				
+				<form class="carpoolInput">
+					<input class="input6" type="text" name="endDay" value="" placeholder="이용 도착 날짜"> 
+					<button class="carpoolInput6Picto"></button>
+				</form>
+				
+				
 
 				<div class="detail">
 					<span class="detailtext"><input type="checkbox" name="detailCondition" value="nonSmoke">&nbsp;&nbsp;비흡연자</span>
 					<span class="detailtext"><input type="checkbox" name="detailCondition" value="femaleDriver">&nbsp;&nbsp;여성드라이버</span>
 					<span class="detailtext"><input type="checkbox" name="detailCondition" value="pet">&nbsp;&nbsp;반려동물</span> 
 					<span class="detailtext"><input type="checkbox" name="detailCondition" value="phoneCharger">&nbsp;&nbsp;핸드폰 충전기 이용 가능</span>
-
+					
+					<button class="carpoolDetailPicto"></button>
+					
 					<!--  
 				<span class="v234_9367"><input type="checkbox" name="detailCondition" value="handWash">&nbsp;&nbsp;손소독제 보유</span>
 				<span class="v234_9367"><input type="checkbox" name="detailCondition" value="carWifi">&nbsp;&nbsp;차량 와이파이 이용 가능</span>
@@ -71,12 +91,12 @@
 			</div>
 
 
-			<div id="carList" style="position: absolute; top:435px; height:50px; width:100%">
+			<div class="carList">
 				<span class="listText">탑승 가능 차량 리스트</span>
 			</div>
 
 
-			<div id="list" style="position: absolute; top:500px; height:1000px; width:100%">
+			<div class="list">
 		
 				<table>
 					<thead>
@@ -188,7 +208,7 @@
 				
 				</div>
 				
-				<div id="paging">
+				<div class="paging">
 							<ul>
 								<li><a href="">〈</a></li>
 								<li><a href="">《</a></li>

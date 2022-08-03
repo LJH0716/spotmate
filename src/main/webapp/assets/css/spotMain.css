@@ -8,10 +8,10 @@
 
 #content {
 	width: 1440px;
+	height: 1000px;
 	margin:0px auto;
 	position: relative; 
-	height: 1000px;
-	
+		
 }
 
 .content-head{
