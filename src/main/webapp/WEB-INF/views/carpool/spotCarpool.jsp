@@ -10,7 +10,9 @@
 <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css">
 
 
-<script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/swiper.min.js"></script>
+<script src="/assets/js/style.js"></script>
 
 <title>스팟 카풀 리스트</title>
 
@@ -21,32 +23,34 @@
 
 	<div id="wrap">
 	
-		<!-- //header -->
-		
-		<header class="header_warpper">
-			<div style="background-color: bisque; height: 200px;"></div>
-		</header>
+		<!-- header-->
+		<c:import url="../includes/header.jsp"></c:import>
+		<!-- //header-->
 		
 					
 		
 		<!-- CONTENT -->
 
-		<div id="content" class="clearfix">
-			<div class="content-head">
+		
+		<div class="content-head">
 
-				<span class="carpool-MainText1"> 같이 타고 가요 <br> SPOT CARPOOL
-				</span> 
-				
-				<span class="carpool-MainText2"> 이동하는 경로가 비슷한 드라이버를 찾아 <br> 출발지부터 목적지까지 편하게 이동해보세요.
-				</span>
+			<span class="carpool-MainText1"> 같이 타고 가요 <br> SPOT CARPOOL
+			</span> 
+			
+			<span class="carpool-MainText2"> 이동하는 경로가 비슷한 드라이버를 찾아 <br> 출발지부터 목적지까지 편하게 이동해보세요.
+			</span>
 
-			</div>
-
+		</div>
+		
+		<div id="content" class="clear">
 			<div class="searchForm">
 				
-				<button class="search"><span class="carpoolSearchPicto"></span>검색하기</button>
-				
-				
+				<button class="search">
+					<img class="carpoolSearchPicto" src="/assets/images/round-search.png">
+					<p>검색하기</p>
+				</button>
+					
+								
 				<form class="carpoolInput">
 					<input class="input1" type="text" name="departure" value="" placeholder="출발지를 입력하세요">
 					<button class="carpoolInput1Picto"></button>
@@ -210,8 +214,8 @@
 				
 				<div class="paging">
 							<ul>
-								<li><a href="">〈</a></li>
-								<li><a href="">《</a></li>
+								<li><p class="carpoolPagePicto"><a href=""></a></p></li>
+								<li><p class="carpoolPagePicto"><a href=""></a></p></li>
 								<li><a href="">1</a></li>
 								<li><a href="">2</a></li>
 								<li><a href="">3</a></li>
@@ -222,8 +226,8 @@
 								<li><a href="">8</a></li>
 								<li><a href="">9</a></li>
 								<li><a href="">10</a></li>
-								<li><a href="">〉</a></li>
-								<li><a href="">》</a></li>
+								<li><p class="carpoolPagePicto"><a href=""></a></p></li>
+								<li><p class="carpoolPagePicto"><a href=""></a></p></li>
 							</ul>
 				</div>				
 			</div>		
@@ -231,11 +235,9 @@
 		
 		
 		
-		<!-- BANNER & FOOTER -->
-		<footer class="footer_warpper">
-			<div style="background-color: bisque; height: 560px;"></div>
-		</footer>
-	
+		<!-- footer-->
+		<c:import url="../includes/footer.jsp"></c:import>
+		<!-- //footer-->
 	
 	
 	</div>
@@ -243,7 +245,3 @@
 	
 </body>
 </html>
-
-
-
-

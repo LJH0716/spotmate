@@ -1,84 +1,62 @@
 @charset "UTF-8";
 
 
-* {
-	box-sizing: border-box;
-}
-
-body {
-	font-size: 14px;
-}
-
 #wrap {
  	width: 1920px;
 	margin: 0px auto;
-	position: relative;
+
 }
 
 #content {
 	width: 1440px;
+	height: 2250px;
 	margin:0px auto;
+	position: relative;
 }
 
-#content-head{
+.content-head{
 	
-  width: 1440px;
+ width: 1920px;
   height: 200px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-
-
+  background:rgba(245,245,245,1);	
 }
-#content-head h1 {
-  width: 700px;
+
+.carpool-MainText1 {
+  width: 660px;
   color: rgba(30,30,30,1);
-  /*position: absolute;*/
   top: 303px;
-  left: 251px;
-  font-family: Noto Sans;
-  font-weight: Bold;
+  left: 451px;
+  font-family: Montserrat;
+  font-weight:700;
   font-size: 32px;
-  opacity: 1;
   text-align: left;
   float: left;
-  padding: 100px 0px 0px 10px;
-  
+  padding: 100px 0px 0px 250px;
+   
 }
 
-#content-head h2 {
+.carpool-MainText2 {
   width: 500px;
   color: rgba(30,30,30,1);
-  /*position: absolute;*/
   top: 303px;
   left: 975px;
   font-family: Noto Sans;
   font-weight: Bold;
   font-size: 20px;
-  opacity: 1;
   text-align: left;
   float: right;
   padding: 100px 50px 0px 0px;
-  margin: 0px 210px 0px 0px;
+  margin: 0px 435px 0px 0px;
+
 }
 
-
-#aside{
+.aside{
 	width: 360px;
     height: 810px;
-    background: url(../images/v240_9671.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
     position: absolute;
-    top: 441px;
+    top: 40px;
     left: 1070px;
     border: 1px solid rgba(217, 217, 217, 1);
-    overflow: hidden;
        
 }
 
@@ -88,12 +66,11 @@ body {
     font-weight: semiBold;
     font-size: 18px;
     text-align: left;
-    padding: 30px 0px 15px 0px;
+    padding: 40px 0px 15px 0px;
     margin: 0px 50px;
     border-bottom: 1px solid rgba(217,217,217,1);
   
 }  
-
 
 .confirm{
     color: rgba(91,91,91,1);
@@ -101,7 +78,8 @@ body {
     font-weight: Bold;
     font-size: 16px;
     text-align: left;
-    border:none;   
+    border:none; 
+    padding:15px 60px 20px 0px;  
 
 }   
 
@@ -111,7 +89,7 @@ body {
     font-weight: Bold;
     font-size: 18px;
     text-align: left;
-    padding: 10px 0px 15px 55px;
+    padding: 15px 0px 30px 55px;
 
   
 }  
@@ -124,7 +102,7 @@ body {
     text-align: left;
     border:none;
     width:250px;
-   
+    padding: 10px 0px 0px 0px;
 } 
 
 .pointText {
@@ -140,25 +118,29 @@ body {
 	width: 310px;
     height: 65px;
     background: rgba(70,84,163,1);
-    /*opacity: 1;
-    position: absolute;*/
     top: 1141px;
     left: 1360px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    border:none;
-    overflow: hidden;   
+    border:none; 
     color: rgba(255,255,255,1);        
     font-family: Noto Sans;
     font-weight: Bold;
     font-size: 24px;    
     text-align: center;
-    margin: 0px 0px 0px 23px;
+    margin: 15px 0px 0px 23px;
+    cursor : pointer;
 }
 
-#top{
+.carpool-section1{
+	width:1000px;
+	height:820px;
+	position: absolute;
+	top:40px;
+}
+.carpool-top{
 	border-bottom-style: solid;
 	border-bottom-color: rgba(91,91,91,1); 
 	border-width: 1px;
@@ -174,11 +156,12 @@ body {
 	height : 160px;
 }
 
-.top1 > h3 {
+.top1-text {
 	color: rgba(72,72,72,1);
     font-weight: 600;
     font-size: 24px;
-    margin : 10px 10px 10px 10px;
+    margin : 10px 10px 10px 0px;
+    padding: 0px 0px 0px 10px;
 }
 
 .pathConfirm{
@@ -187,10 +170,20 @@ body {
     font-weight: 500;
     font-size: 18px;
     text-align: left;
-    padding: 0px 0px 0px 10px;
-    margin : 10px 0px 10px 0px;
+    padding: 0px 0px 0px 15px;
+    margin : 10px 200px 10px 0px;
 }
 
+.path-confirm{
+    color: rgba(91,91,91,1);
+	font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 16px;
+    text-align: left;
+    border:none; 
+    padding:10px 100px 10px 0px;  
+
+}   
 
 .pathPicto{
 	position: absolute;
@@ -201,7 +194,7 @@ body {
 
 .pathTime{
 	position: absolute;
-	top : 65px;
+	top : 90px;
 	right : 0px;
     color: rgba(73,85,159,1);  
     font-weight: bold;
@@ -218,7 +211,6 @@ body {
     font-family: Noto Sans;
     font-weight: Bold;
     font-size: 24px;
-    opacity: 1;
     text-align: left;
     padding: 0px 0px 0px 10px;
 }    
@@ -227,7 +219,6 @@ body {
 	width: 130px;
     height: 40px;
     background: rgba(239,239,239,1);
-    opacity: 1;
     top: 705px;
     left: 1069px;
     border-top-left-radius: 5px;
@@ -235,33 +226,33 @@ body {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border:none;
-    overflow: hidden;
     float:right;
     margin: 38px 0px 0px 0px;
     color: rgba(95,95,95,1);
     font-family: Noto Sans;
     font-weight: Bold;
     font-size: 16px;
-    text-align: left;
+    text-align: right;
+    padding:0px 15px 0px 0px;
+    
 }
 
-.qnapicto {
-  width: 28px;
-  height: 28px;
-  background: rgba(255,255,255,1);
-  /*opacity: 1;
-  position: absolute;*/
-  top: 463px;
-  left: 1613px;
-  margin: 0px 10px 0px 8px;
-  float: left; 
+.qnaPicto:after {
+	content: "pic";
+	background-color : black;
+	margin : 10px 5px 0px 5px;
+	position: absolute;
+	top:230px;
+	left:880px;
+	cursor : pointer;
+	float:left;
 }
 
 .driverIntoduce{
 	width: 170px;
     color: rgba(72,72,72,1);
     position: absolute;
-    top: 650px;
+    top: 700px;
     left: 0px;
     font-family: Noto Sans;
     font-weight: Bold;
@@ -275,7 +266,7 @@ body {
 	width: 800px;
     color: rgba(72,72,72,1);
     position: absolute;
-    top: 700px;
+    top: 760px;
     left: 0px;
     font-family: Noto Sans;
     font-weight: Medium;
@@ -285,70 +276,67 @@ body {
     padding: 0px 0px 0px 10px;
 }   
 
-.picture > a {
-	width:1000px;
-	height:300px;
-	margin:0px auto;
-	overflow:hidden;
-	opacity: 1;
-	
-}
-.picture > a > div {
+.carpool-picture > a > div {
 	transition: all 0.2s linear;	
 }
 
+.carpool-car-picture{
+	width: 1000px;
+	height: 350px;
+	position: absolute;
+	top: 310px;
+	left: 0px;
+	background: url(/assets/images/car.png);
+	background-size: cover;
+}
 .picture-text {
 	width: 400px;
     color: rgba(255,255,255,1);
-    /*position: absolute;*/
-    top: 680px;
-    left: 600px;
     font-family: Noto Sans;
     font-weight: Bold;
     font-size: 32px;
-    opacity: 1;
-    text-align: center;
-    margin:0px 0px 0px 130px;
+    float:left;
+    margin:0px 0px 0px 180px;
+    padding:150px 0px 0px 220px;
 }
 
 .driverInfo{
 	width: 250px;
     color: rgba(72,72,72,1);
-    /*position: absolute;*/
-    top: 300px;
-    left: 0px;
     font-family: Noto Sans;
     font-weight: Bold;
     font-size: 24px;
-    opacity: 1;
-    text-align: left;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 15px 10px;
     
 }
 
-#section2 table {
+.carpool-section2{
+	width:1440px;
+	height:250px;
+	position: absolute;
+	top:950px;
+}
+.carpool-section2 table {
     width: 700px;
     color: rgba(72,72,72,1);
 	border-collapse: collapse;
-	position: absolute;
+	position: relative;
     font-family: Noto Sans;
     font-weight: Semibold; 
     font-size: 16px;
     text-align: left;
         	
 }
-#section2 tr {
+.carpool-section2 tr {
 	width : 300px;
 }
 
-#section2 td {
+.carpool-section2 td {
 	 padding: 10px 0px 10px 10px;
 	 
 	
 }
-.driverInfo_table {
-	position: relative;
-}
+
 
 .infoPicto:after {
 	content: "pic";

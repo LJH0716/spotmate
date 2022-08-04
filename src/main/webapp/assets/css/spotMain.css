@@ -6,7 +6,7 @@
 
 }
 
-#content {
+#spotContent {
 	width: 1440px;
 	height: 1000px;
 	margin:0px auto;
@@ -14,7 +14,7 @@
 		
 }
 
-.content-head{
+.spot-content-head{
 	
   width: 1440px;
   height: 200px;
@@ -196,5 +196,6 @@
 	content: "pic";
 	background-color : black;
 	margin : 0px 5px 0px 5px;
+	cursor : pointer;
 }
 

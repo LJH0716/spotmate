@@ -10,7 +10,9 @@
 <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css">
 
 
-<script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/swiper.min.js"></script>
+<script src="/assets/js/style.js"></script>
 
 <title>스팟 카풀 메인</title>
 
@@ -20,17 +22,16 @@
 
 	<div id="wrap">
 
-		<!-- //header -->
-		<header class="header_warpper">
-			<div style="background-color: bisque; height: 200px;"></div>
-		</header>
-
+		<!-- header-->
+		<c:import url="../includes/header.jsp"></c:import>
+		<!-- //header-->
+		
 
 
 		<!-- CONTENT -->
 
-		<div id="content" class="clear">
-			<div class="content-head">
+		<div id="spotContent" class="clear">
+			<div class="spot-content-head">
 
 				<span class="mainText1">
 					누구나 쉽게, <br> 원하는 목적지로 이동
@@ -87,10 +88,9 @@
 		</div>
 
 
-		<!-- BANNER & FOOTER -->
-		<footer class="footer_warpper">
-			<div style="background-color: bisque; height: 560px;"></div>
-		</footer>
+		<!-- footer-->
+		<c:import url="../includes/footer.jsp"></c:import>
+		<!-- //footer-->
 
 	</div>
 
