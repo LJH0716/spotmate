@@ -349,6 +349,10 @@ input[type=checkbox] {
 	
 }
 
+.paging ul>li>a {
+   color: rgba(75, 75, 75, 1);
+}
+
 .paging ul>li.active{
 	
 	font-size: 16px;
