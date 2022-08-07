@@ -5,6 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<title>스팟 카풀 리스트</title>
 
 <link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.min.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" type="text/css">
@@ -14,9 +15,9 @@
 <script src="/assets/js/swiper.min.js"></script>
 <script src="/assets/js/style.js"></script>
 
-<title>스팟 카풀 리스트</title>
 
 </head>
+
 
 <body>
 
@@ -49,48 +50,64 @@
 					<img class="carpoolSearchPicto" src="/assets/images/round-search.png">
 					<p>검색하기</p>
 				</button>
-					
-								
+
+
 				<form class="carpoolInput">
 					<input class="input1" type="text" name="departure" value="" placeholder="출발지를 입력하세요">
-					<button class="carpoolInput1Picto"></button>
+					<button>
+						<img class="carpoolInput1Picto" src="/assets/images/arrows_exchange02.png">
+					</button>
 				</form>
-				
+
 				<input class="input2" type="text" name="destination" value="" placeholder="도착지를 입력하세요">
 				
 				<input class="input3" type="text" name="startTime" value="" placeholder="출발시간">
 				
 				<form class="carpoolInput">
 					<input class="input4" type="text" name="number" value="" placeholder="인원수">
-					<button class="carpoolInput4Picto"></button>
+					<button>
+						<img class="carpoolInput4Picto" src="/assets/images/ico_updown.png">
+					</button>
 				</form>
 				
 				<form class="carpoolInput"> 
-					<input class="input5" type="text" name="startDay" value="" placeholder="이용 출발 날짜">
-					<button class="carpoolInput5Picto"></button>
+					<input  class="input5" type="text" name="startDay" value="" placeholder="이용 출발 날짜">
+					<button>
+						<img class="carpoolInput5Picto" src="/assets/images/regularcalendar.png">
+					
+					</button>
 				</form>
 				
 				<form class="carpoolInput">
 					<input class="input6" type="text" name="endDay" value="" placeholder="이용 도착 날짜"> 
-					<button class="carpoolInput6Picto"></button>
+					<button>
+						<img class="carpoolInput6Picto" src="/assets/images/regularcalendar.png">
+					</button>
 				</form>
-				
-				
+
+		
 
 				<div class="detail">
+					<label>
 					<span class="detailtext"><input type="checkbox" name="detailCondition" value="nonSmoke">&nbsp;&nbsp;비흡연자</span>
+					</label>
+					
+					<label>
 					<span class="detailtext"><input type="checkbox" name="detailCondition" value="femaleDriver">&nbsp;&nbsp;여성드라이버</span>
+					</label>
+					
+					<label>
 					<span class="detailtext"><input type="checkbox" name="detailCondition" value="pet">&nbsp;&nbsp;반려동물</span> 
-					<span class="detailtext"><input type="checkbox" name="detailCondition" value="phoneCharger">&nbsp;&nbsp;핸드폰 충전기 이용 가능</span>
+					</label>
 					
-					<button class="carpoolDetailPicto"></button>
+					<label>
+					<span class="detailtext"><input type="checkbox" name="detailCondition" value="phoneCharger">&nbsp;&nbsp;충전기 사용 가능</span>
+					</label>
 					
-					<!--  
-				<span class="v234_9367"><input type="checkbox" name="detailCondition" value="handWash">&nbsp;&nbsp;손소독제 보유</span>
-				<span class="v234_9367"><input type="checkbox" name="detailCondition" value="carWifi">&nbsp;&nbsp;차량 와이파이 이용 가능</span>
-				<span class="v234_9367"><input type="checkbox" name="detailCondition" value="silence">&nbsp;&nbsp;조용하게 가는 것을 선호</span>
-				<span class="v234_9367"><input type="checkbox" name="detailCondition" value="useTrunk">&nbsp;&nbsp;트렁크 사용 가능</span>
-				-->
+					<label>
+					<span class="detailtext"><input type="checkbox" name="detailCondition" value="handWash">&nbsp;&nbsp;트렁크 사용 가능</span>
+					</label>
+				
 				</div>
 			</div>
 
@@ -121,7 +138,7 @@
 							<td>카풀 정기권</td>
 							<td>출발지</td>
 							<td>도착지</td>
-							<td>+3000P</td>
+							<td>+ 3,000P</td>
 							<td>spotmate123</td>
 							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
@@ -130,7 +147,7 @@
 							<td>카풀 정기권</td>
 							<td>출발지</td>
 							<td>도착지</td>
-							<td>+3000P</td>
+							<td>+ 3,000P</td>
 							<td>spotmate123</td>
 							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
@@ -139,7 +156,7 @@
 							<td>카풀 정기권</td>
 							<td>출발지</td>
 							<td>도착지</td>
-							<td>+3000P</td>
+							<td>+ 3,000P</td>
 							<td>spotmate123</td>
 							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
@@ -148,7 +165,7 @@
 							<td>카풀 정기권</td>
 							<td>출발지</td>
 							<td>도착지</td>
-							<td>+3000P</td>
+							<td>+ 3,000P</td>
 							<td>spotmate123</td>
 							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
@@ -157,7 +174,7 @@
 							<td>카풀 정기권</td>
 							<td>출발지</td>
 							<td>도착지</td>
-							<td>+3000P</td>
+							<td>+ 3,000P</td>
 							<td>spotmate123</td>
 							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
@@ -166,7 +183,7 @@
 							<td>카풀 정기권</td>
 							<td>출발지</td>
 							<td>도착지</td>
-							<td>+3000P</td>
+							<td>+ 3,000P</td>
 							<td>spotmate123</td>
 							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
@@ -175,7 +192,7 @@
 							<td>카풀 정기권</td>
 							<td>출발지</td>
 							<td>도착지</td>
-							<td>+3000P</td>
+							<td>+ 3,000P</td>
 							<td>spotmate123</td>
 							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
@@ -184,7 +201,7 @@
 							<td>카풀 정기권</td>
 							<td>출발지</td>
 							<td>도착지</td>
-							<td>+3000P</td>
+							<td>+ 3,000P</td>
 							<td>spotmate123</td>
 							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
@@ -193,7 +210,7 @@
 							<td>카풀 정기권</td>
 							<td>출발지</td>
 							<td>도착지</td>
-							<td>+3000P</td>
+							<td>+ 3,000P</td>
 							<td>spotmate123</td>
 							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
@@ -202,7 +219,7 @@
 							<td>카풀 정기권</td>
 							<td>출발지</td>
 							<td>도착지</td>
-							<td>+3000P</td>
+							<td>+ 3,000P</td>
 							<td>spotmate123</td>
 							<td><a href="./spotCarpoolDeep"><button class="board">탑승요청</button></a></td>
 						</tr>
@@ -214,8 +231,20 @@
 				
 				<div class="paging">
 							<ul>
-								<li><p class="carpoolPagePicto"><a href=""></a></p></li>
-								<li><p class="carpoolPagePicto"><a href=""></a></p></li>
+								<li>
+									<a href="">
+									<img class="carpoolPagePicto" src="/assets/images/chevron-double-left.png">
+									</a>
+								
+								</li>
+								
+								<li>
+									<a href="">
+									<img class="carpoolPagePicto" src="/assets/images/chevron-left.png">
+									</a>
+								
+								</li>
+								
 								<li><a href="">1</a></li>
 								<li><a href="">2</a></li>
 								<li><a href="">3</a></li>
@@ -226,8 +255,18 @@
 								<li><a href="">8</a></li>
 								<li><a href="">9</a></li>
 								<li><a href="">10</a></li>
-								<li><p class="carpoolPagePicto"><a href=""></a></p></li>
-								<li><p class="carpoolPagePicto"><a href=""></a></p></li>
+								
+								<li>
+									<a href="">
+									<img class="carpoolPagePicto" src="/assets/images/chevron-right.png">
+									</a>
+								</li>
+								
+								<li>
+									<a href="">
+									<img class="carpoolPagePicto" src="/assets/images/chevron-double-right.png">
+									</a>
+								</li>
 							</ul>
 				</div>				
 			</div>		
@@ -244,4 +283,6 @@
 
 	
 </body>
+
+
 </html>
